@@ -7,15 +7,19 @@ const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#4caf50',
+      main: '#1976d2',
     },
   },
   typography: {
     h1: {
-      fontSize: '2.5rem',
-      fontWeight: 600,
-      marginBottom: '2rem',
+      fontSize: '2rem',
+      fontWeight: 700,
+      marginBottom: '1.5rem',
     },
+    h4: {
+      fontSize: '1.5rem',
+      fontWeight: 600,
+    }
   },
 });
 
@@ -23,13 +27,12 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container>
+      <Container maxWidth="md">
         <Box sx={{ 
-          textAlign: 'center', 
           py: 4,
         }}>
-          <Typography variant="h1" component="h1">
-            Системный лидген - Домашние задания
+          <Typography variant="h1" component="h1" sx={{ textAlign: 'left' }}>
+            Домашние задания
           </Typography>
           <RoadMap />
         </Box>
