@@ -410,10 +410,11 @@ const RoadMap: React.FC = () => {
               border: '1px solid rgba(0, 0, 0, 0.12)',
               borderRadius: '15px',
               overflow: 'hidden',
-              transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+              transition: 'transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease',
               '&:hover': {
                 transform: 'translateY(-2px)',
-                boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
+                boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+                bgcolor: 'rgba(0, 0, 0, 0.02)'
               }
             }}
           >
@@ -424,9 +425,9 @@ const RoadMap: React.FC = () => {
                 bgcolor: module.color,
                 color: 'white',
                 position: 'relative',
+                transition: 'background-color 0.2s ease',
                 '&:hover': {
-                  bgcolor: module.color,
-                  opacity: 0.9
+                  bgcolor: `${module.color}dd`,
                 }
               }}
             >
