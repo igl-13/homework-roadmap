@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/homework-roadmap/static/js/main.f912b18e.js",
+    "main.js": "/homework-roadmap/static/js/main.5f485323.js",
     "index.html": "/homework-roadmap/index.html",
-    "main.f912b18e.js.map": "/homework-roadmap/static/js/main.f912b18e.js.map"
+    "main.5f485323.js.map": "/homework-roadmap/static/js/main.5f485323.js.map"
   },
   "entrypoints": [
-    "static/js/main.f912b18e.js"
+    "static/js/main.5f485323.js"
   ]
 }
