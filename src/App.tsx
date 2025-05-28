@@ -30,9 +30,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="md">
-        <Box sx={{ 
-          py: 4,
-        }}>
+        <Box sx={{ py: 4 }}>
           <RoadMap />
         </Box>
       </Container>
